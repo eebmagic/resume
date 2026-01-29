@@ -5,7 +5,7 @@
 #let location = "Atlanta, GA"
 #let email = "eebmagic@gmail.com"
 #let github = "github.com/eebmagic"
-#let linkedin = "linkedin.com/in/everett-bolton-b4004018a"
+#let linkedin = "linkedin.com/in/everett-bolton"
 #let phone = "+1(334) 796-2525"
 #let personal-site = "stuxf.dev"
 
@@ -16,8 +16,8 @@
   // feel free to comment those lines out and they will not show.
   location: location,
   email: email,
-  // github: github,
-  // linkedin: linkedin,
+  github: github,
+  linkedin: linkedin,
   phone: phone,
   // personal-site: personal-site,
   accent-color: "#26428b",
@@ -25,11 +25,6 @@
   paper: "us-letter",
   author-position: left,
   personal-info-position: left,
-)
-
-#generic-one-by-two(
-    left: link(github),
-    right: link(linkedin)
 )
 
 /*
@@ -59,7 +54,7 @@
   consistent: true
 )
 - Dean's List
-- Threads: Intelligence & Media
+- Thread Concentrations: Intelligence & Media
 
 
 == Work Experience
@@ -111,6 +106,7 @@
   // URL is optional
 )
 - Integrated the Spotify API in a Go server to pull user playlists and album art
+- Implemented a force reaction algorithm to minimize art overlap while maintaining density
 - Displayed album art in a React UI based on a calculated primary color
 - Cached computed color values to maximize performance and minimize redundant image requests
 
@@ -127,7 +123,6 @@
 
 - *Programming Languages*: Python, JavaScript, Golang
 - *Technologies*: Node.js Docker, React, MongoDB, Redis
-
 
 // #extracurriculars(
 //   activity: "Science Olympiad Volunteering",
