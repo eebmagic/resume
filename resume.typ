@@ -69,7 +69,7 @@
 - Balance greenfield development with maintaining critical legacy applications and expanding features
 - Architected a horizontally scalable connection management system handling distributed state across server nodes, supporting high-throughput enterprise-scale environments
 - Led architecture migration of legacy application to improve support for horizontal scaling with shared state, enhancing system reliability and performance while maintaining backward compatibility
-- Built flexible Docker-based integration testing framework across multiple products, reducing deployment risk and accelerating development velocity in a rapidly scaling engineering organization
+- Built flexible Docker-based integration testing framework across multiple products, reducing deployment risk and accelerating development
 - Prototyped ML-powered product features on Labs team:
     - embedding-based device grouping and anomaly detection for device configuration changes
     - workflow task recommendation system for low-code canvas
@@ -91,25 +91,34 @@
   company: "Itential",
   dates: dates-helper(start-date: "Jun 2021", end-date: "Dec 2022"),
 )
-- Prototyped machine learning and NLP systems for new product features with TensorFlow and PyTorch
-- Contributed to supported adapters to add features and improve efficiency/reliability
-- Created new adapters for services such as MongoDB and BlueCat
-- Migrated React components by implementing designs from internal UX team
-- Handled client feature requests to accommodate urgent needs
+- Prototyped an NLP system to infer ruleset trees across network device configs
+- Rapidly delivered features to resolve urgent client needs, preventing production issues and enabling critical deployments
+- Enhanced production adapters to add features, improve efficiency/reliability, and support new services
+- Migrated React components by implementing designs from internal UX team and resolving upgrade issues
 
 
 == Projects
 
 #project(
   name: "Spotify-Vis",
-  dates: dates-helper(start-date: "2025", end-date: "Present")
+  dates: dates-helper(start-date: "Mar 2025", end-date: "Present")
   // URL is optional
 )
 - Integrated the Spotify API in a Go server to pull user playlists and album art
 - Implemented a force reaction algorithm to minimize art overlap while maintaining density
-- Displayed album art in a React UI based on a calculated primary color
+- Displayed album art in a React UI based on a calculated principal color
 - Cached computed color values to maximize performance and minimize redundant image requests
 
+#project(
+    name: "eBay Dashboard",
+    dates: dates-helper(start-date: "Dec 2024", end-date: "Present"),
+    url: "github.com/eebmagic/fol-ebay-dashboard",
+)
+- Built a web application integrating eBay's API to streamline data export and insights for a nonprofit book seller
+- Improved data presentation for multi-order shipment tracking and repeat buyers, reducing manual tracking overhead
+- Deployed as a free service to support local library fundraising operations
+
+/*
 #project(
   name: "Wordle Solver",
   dates: "Spring 2022",
@@ -117,12 +126,13 @@
 )
 - Used a RegEx process to determine the set of remaining words from a Wordle board, ranked by corpus frequency
 - Forked a TypeScript frontend for an existing Wordle clone
+*/
 
 
 == Skills
 
 - *Programming Languages*: Python, JavaScript, Golang
-- *Technologies*: Node.js Docker, React, MongoDB, Redis
+- *Technologies*: Node.js, Docker, React, MongoDB, Redis
 
 // #extracurriculars(
 //   activity: "Science Olympiad Volunteering",
