@@ -54,7 +54,7 @@
   consistent: true
 )
 - Dean's List
-- Thread Concentrations: Intelligence & Media
+- Relevant Coursework: Computer Vision, Computer Graphics, Machine Learning, Natural Language Processing
 
 
 == Work Experience
@@ -65,25 +65,24 @@
   company: "Itential",
   dates: dates-helper(start-date: "May 2023", end-date: "Present"),
 )
-- Design and build production features across full-stack Node.js and Go codebase for an enterprise low-code network automation platform
-- Balance greenfield development with maintaining critical legacy applications and expanding features
-- Architected a horizontally scalable connection management system handling distributed state across server nodes, supporting high-throughput enterprise-scale environments
+- Designed and built new features across full-stack Node.js and Go codebase for an enterprise low-code network automation platform
+- Architected a high-throughput, horizontally scalable connection management system handling distributed state across server nodes, reducing runtime by 38%
 - Led architecture migration of legacy application to improve support for horizontal scaling with shared state, enhancing system reliability and performance while maintaining backward compatibility
-- Built flexible Docker-based integration testing framework across multiple products, reducing deployment risk and accelerating development
-- Prototyped ML-powered product features on Labs team:
+- Built flexible Docker-based integration testing framework across several applications, reducing deployment risk and accelerating development
+- Prototyped ML-powered product features on a Research and Development team:
     - embedding-based device grouping and anomaly detection for device configuration changes
     - workflow task recommendation system for low-code canvas
 
 #work(
   title: "Linguistics Research Assistant",
   location: "Atlanta, GA",
-  company: "Professor Leila Glass (at Georgia Tech)",
+  company: "Professor Leila Glass (Georgia Tech Linguistics)",
   dates: dates-helper(start-date: "Jan 2021", end-date: "May 2023"),
 )
+- Used linear regression modeling and z-score normalization to quantify southern accent expression
+- Measured patterns across accent expression and political orientation survey responses
+- Collaborated with a multidisciplinary team
 - Interviewed and recorded study participants
-- Data processing to quantify accents and speech habits of study participants
-- Measured patterns across accent expression and political orientation
-- Collaborated with a large multidisciplinary team
 
 #work(
   title: "Software Engineering Co-op",
@@ -91,17 +90,18 @@
   company: "Itential",
   dates: dates-helper(start-date: "Jun 2021", end-date: "Dec 2022"),
 )
-- Prototyped an NLP system to infer ruleset trees across network device configs
+- Prototyped an NLP system to infer document groupings and ruleset templates for network device configs
+    - Combined Jaccard similarity with custom embeddings (PyTorch and TensorFlow)
 - Rapidly delivered features to resolve urgent client needs, preventing production issues and enabling critical deployments
 - Enhanced production adapters to add features, improve efficiency/reliability, and support new services
-- Migrated React components by implementing designs from internal UX team and resolving upgrade issues
+- Upgraded React components by implementing designs from UX team and resolving migration issues
 
 
 == Projects
 
 #project(
   name: "Spotify-Vis",
-  dates: dates-helper(start-date: "Mar 2025", end-date: "Present")
+  dates: "Mar 2025"
   // URL is optional
 )
 - Integrated the Spotify API in a Go server to pull user playlists and album art
@@ -111,7 +111,7 @@
 
 #project(
     name: "eBay Dashboard",
-    dates: dates-helper(start-date: "Dec 2024", end-date: "Present"),
+    dates: "Dec 2024",
     url: "github.com/eebmagic/fol-ebay-dashboard",
 )
 - Built a web application integrating eBay's API to streamline data export and insights for a nonprofit book seller
@@ -132,7 +132,7 @@
 == Skills
 
 - *Programming Languages*: Python, JavaScript, Golang
-- *Technologies*: Node.js, Docker, React, MongoDB, Redis
+- *Technologies*: Node.js, Docker, React, MongoDB, Redis, PyTorch, TensorFlow
 
 // #extracurriculars(
 //   activity: "Science Olympiad Volunteering",
