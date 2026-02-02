@@ -9,6 +9,8 @@
 #let phone = "+1(334) 796-2525"
 #let personal-site = "stuxf.dev"
 
+#set par(leading: 0.62em)  // Reduce line spacing
+
 #show: resume.with(
   author: name,
   // All the lines below are optional.
@@ -26,6 +28,8 @@
   author-position: left,
   personal-info-position: left,
 )
+
+#set par(justify: false)  // Disable justified text
 
 /*
 * Lines that start with == are formatted into section headings
@@ -100,6 +104,17 @@
 == Projects
 
 #project(
+  name: "Desk Time Dashboard",
+  dates: "Jan 2026",
+  url: "eebmagic.github.io/roboflow-desk-time",
+)
+- Created a Roboflow Workflow to process several thousand images from an apartment camera
+- Used a Roboflow object detection model and Gemini model to detect presence and computer usage
+- Built a Chart.js dashboard visualizing daily desk time patterns and animated spatial movement throughout the apartment
+- Reduced workflow runs by 39% using pixel variance analysis to filter low-information nighttime images
+
+/*  // Removed for purpose of Roboflow application resume 
+#project(
   name: "Spotify-Vis",
   dates: "Mar 2025"
   // URL is optional
@@ -108,6 +123,7 @@
 - Implemented a force reaction algorithm to minimize art overlap while maintaining density
 - Displayed album art in a React UI based on a calculated principal color
 - Cached computed color values to maximize performance and minimize redundant image requests
+*/
 
 #project(
     name: "eBay Dashboard",
