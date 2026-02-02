@@ -27,6 +27,8 @@
   personal-info-position: left,
 )
 
+#set par(justify: false)  // Disable justified text
+
 /*
 * Lines that start with == are formatted into section headings
 * You can use the specific formatting functions if needed
